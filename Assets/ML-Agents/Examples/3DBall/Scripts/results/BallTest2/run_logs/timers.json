@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1758369065",
+        "python_version": "3.9.23 (main, Jun  3 2025, 18:47:52) \n[Clang 17.0.0 (clang-1700.0.13.3)]",
+        "command_line_arguments": "/Users/mac/Downloads/ml-agents-latest_release/Project/Assets/ML-Agents/Examples/3DBall/Scripts/ml-agents-env/bin/mlagents-learn config/3DBall.yaml --run-id=BallTest2 --train",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1758369099"
+    },
+    "total": 33.732357708,
+    "count": 1,
+    "self": 0.015790166000009265,
+    "children": {
+        "run_training.setup": {
+            "total": 0.016421457999999944,
+            "count": 1,
+            "self": 0.016421457999999944
+        },
+        "TrainerController.start_learning": {
+            "total": 33.700146084,
+            "count": 1,
+            "self": 0.0017684179999974958,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 33.698309417000004,
+                    "count": 1,
+                    "self": 33.698309417000004
+                },
+                "trainer_threads": {
+                    "total": 3.0829999957404652e-06,
+                    "count": 1,
+                    "self": 3.0829999957404652e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 6.516599999883965e-05,
+                    "count": 1,
+                    "self": 6.516599999883965e-05
+                }
+            }
+        }
+    }
+}
